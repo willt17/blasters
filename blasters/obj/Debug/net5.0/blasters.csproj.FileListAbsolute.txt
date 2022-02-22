@@ -1,0 +1,16 @@
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.exe
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.deps.json
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.runtimeconfig.json
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.runtimeconfig.dev.json
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.dll
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\ref\blasters.dll
+C:\Users\willt\blasters\blasters\blasters\bin\Debug\net5.0\blasters.pdb
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.csproj.AssemblyReference.cache
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.AssemblyInfoInputs.cache
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.AssemblyInfo.cs
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.csproj.CoreCompileInputs.cache
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.dll
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\ref\blasters.dll
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.pdb
+C:\Users\willt\blasters\blasters\blasters\obj\Debug\net5.0\blasters.genruntimeconfig.cache
