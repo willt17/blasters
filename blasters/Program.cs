@@ -6,7 +6,7 @@ namespace blasters
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Haaello World!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
