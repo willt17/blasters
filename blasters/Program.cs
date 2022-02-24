@@ -19,7 +19,7 @@ namespace blasters
                 string tempPoints = CallShot();
                 if(tempPoints == "1")
                 {
-                    userPoints += 10;
+                    userPoints += 5;
                     System.Console.WriteLine("You now have " + userPoints + " points.");
                 }
                 else if(tempPoints == "2")
@@ -34,13 +34,13 @@ namespace blasters
                 }
                 else
                 {
-                    System.Console.WriteLine("else.");
+                    System.Console.WriteLine("");
                 }
             }
         }
         static string CallShot()
         {
-            System.Console.WriteLine("Master Yodas is testing you, would you like to attempt to dodge or deflect the shot?");
+            System.Console.WriteLine("Master Yoda is testing you, would you like to attempt to dodge or deflect the shot?");
             System.Console.WriteLine("Press 1 to dodge or 2 to deflect");
             string userInput = Console.ReadLine();
             if(userInput == "1")
@@ -48,22 +48,35 @@ namespace blasters
                 bool hit = DodgeChance();
                 if(hit == true)
                 {
-                    System.Console.WriteLine("hit works.");
-                    string hitTrue = "1";
+                    // System.Console.WriteLine("hit works.");
+                    string hitTrue = "2";
                     return hitTrue;
                 }
                 else
                 {
-                    System.Console.WriteLine("miss works.");
-                    string hitFalse = "2";
+                    // System.Console.WriteLine("miss works.");
+                    string hitFalse = "1";
                     return hitFalse;
                 }
             }
             else if(userInput == "2")
             {
-                DeflectChance();
-                string deflectTest = "3";
-                return deflectTest;
+                bool deflectHit = DeflectChance();
+                if(deflectHit == true)
+                {
+                    string deflectTrue = "3";
+                    return deflectTrue;
+                }
+                else if(deflectHit == false)
+                {
+                    string deflectFalse = "2";
+                    return deflectFalse;
+                }
+                else
+                {
+                    string SecondInvalidHit = "4";
+                    return SecondInvalidHit;
+                }
             }
             else
             {
@@ -91,9 +104,25 @@ namespace blasters
                 return hit;
             }
         }
-        static void DeflectChance()
+        static bool DeflectChance()
         {
-            System.Console.WriteLine("Deflect chance");
+            // System.Console.WriteLine("Deflect chance");
+            // System.Console.WriteLine("Dodge chance");
+            Random rnd = new Random();
+            int result = rnd.Next(10);
+            // System.Console.WriteLine(result);
+            if(result >= 7)
+            {
+                System.Console.WriteLine("You deflected.");
+                bool hit = false;
+                return hit;
+            }
+            else
+            {
+                System.Console.WriteLine("You're hit.");
+                bool hit = true;
+                return hit;
+            }
         }
     }
 }
