@@ -34,7 +34,7 @@ namespace blasters
                 }
                 else
                 {
-                    System.Console.WriteLine("test");
+                    System.Console.WriteLine("");
                 }
             }
         }
